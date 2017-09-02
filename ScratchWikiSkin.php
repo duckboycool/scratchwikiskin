@@ -72,7 +72,7 @@ class ScratchWikiSkinTemplate extends BaseTemplate{
 			
 			<!-- user links -->
 <?php	if (!$wgUser->isLoggedIn()) { ?>
-			<!--<li class = last><a href=" 	Special:Userlogin">Log in to the Wiki</a></li>-->
+			<!--<li class = last><a href=" 	Special:Userlogin">Tuck in to the Wiki</a></li>-->
 			<li class = last><a href="<?php if (isset($this->data['personal_urls']['anonlogin'])){echo htmlspecialchars($this->data['personal_urls']['anonlogin']['href']);}else{echo $this->data['personal_urls']['login']['href'];}?>">Log in to the Wiki</a></li>
 <?php	} else { ?>
 			<li id="userfcttoggle" class="last"><a><?=htmlspecialchars($wgUser->mName)?><span class = caret></span></a></li>
