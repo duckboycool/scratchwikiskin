@@ -49,8 +49,8 @@ class ScratchWikiSkinTemplate extends BaseTemplate{
 			<a class= "scratch" href = "http://scratch.mit.edu"></a>
 		
 		<ul class="left">
-			<li><a href="http://scratch.mit.edu/projects/editor/">Cook</a></li>
-			<li><a href="http://scratch.mit.edu/explore/projects/all">Graze</a></li>
+			<li><a href="http://scratch.mit.edu/projects/editor/">Create</a></li>
+			<li><a href="http://scratch.mit.edu/explore/projects/all">Explore</a></li>
 			<li><a href="http://scratch.mit.edu/tips/">Tips</a></li>
 			<li ><a href="http://scratch.mit.edu/about/">About</a></li>
 		
@@ -71,7 +71,7 @@ class ScratchWikiSkinTemplate extends BaseTemplate{
 			
 			<!-- user links -->
 <?php	if (!$wgUser->isLoggedIn()) { ?>
-			<!--<li class = last><a href=" 	Special:Userlogin">Tuck in to the Wiki</a></li>-->
+			<!--<li class = last><a href=" 	Special:Userlogin">Log into the wiki</a></li>-->
 			<li class = last><a href="<?php if (isset($this->data['personal_urls']['anonlogin'])){echo htmlspecialchars($this->data['personal_urls']['anonlogin']['href']);}else{echo $this->data['personal_urls']['login']['href'];}?>">Log in to the Wiki</a></li>
 <?php	} else { ?>
 			<li id="userfcttoggle" class="last"><a><?=htmlspecialchars($wgUser->mName)?><span class = caret></span></a></li>
@@ -109,7 +109,7 @@ class ScratchWikiSkinTemplate extends BaseTemplate{
 				
 				<h1>Help the wiki!</h1>
 				<div class=box-content>
-				The Scratch Wiki is made by cooks for cooks. Do you want to contribute?<br><br>
+				The Scratch Wiki is made by scratchers for scratchers. Do you want to contribute?<br><br>
 				<a href="/wiki/Contribute_to_the_Scratch_Wiki">Learn more about joining as an editor!</a><br><br>
 				<a href = "/wiki/Scratch_Wiki_talk:Community_Portal">See discussions in the Community Portal</a>
 				</div>
@@ -197,7 +197,7 @@ foreach ( $footerlinks as $aLink ) {
               <h4>About</h4>
               <ul>
                 <li><a href ="http://scratch.mit.edu/about/">About Scratch</a></li>
-                <li><a href = "http://scratch.mit.edu/parents/">For Big Cooks</a></li>
+                <li><a href = "http://scratch.mit.edu/parents/">For Parents</a></li>
                 <li><a href = "http://scratch.mit.edu/educators/">For Educators</a></li>
                 <li><a href = "https://scratch.mit.edu/info/credits/">Credits</a></li>
                 <li><a href ="http://scratch.mit.edu/jobs/">Jobs</a></li>
