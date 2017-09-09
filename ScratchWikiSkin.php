@@ -188,7 +188,7 @@ foreach ( $footerlinks as $aLink ) {
                 <li><a href ="http://scratch.mit.edu/about/">About Scratch</a></li>
                 <li><a href = "http://scratch.mit.edu/parents/">For Big Cooks</a></li>
                 <li><a href = "http://scratch.mit.edu/educators/">For Educators</a></li>
-                <li><a href = "https://scratch.mit.edu/info/credits/">Credits</a></li>
+                <li><a href = "https://scratch.mit.edu/info/credits/">Creator Cooks</a></li>
                 <li><a href ="http://scratch.mit.edu/jobs/">Jobs</a></li>
                 <li><a href = "http://scratch.mit.edu/press/">Press</a></li>
               </ul>
@@ -198,15 +198,14 @@ foreach ( $footerlinks as $aLink ) {
               <ul>
                 <li><a href = "http://scratch.mit.edu/community_guidelines/">Community Guidelines</a></li>
                 <li><a href = "http://scratch.mit.edu/discuss/">Discussion Forums</a></li>
-                <li><a href = "http://wiki.scratch.mit.edu/">Scratch Wiki</a></li>
+                <li><a href = "http://wiki.scratch.mit.edu/">Edible Wiki</a></li>
                 <li><a href = "http://scratch.mit.edu/statistics/">Statistics</a></li>
               </ul>
             </li>
             <li>
               <h4>Support</h4>
               <ul>
-                <li><a href = "http://scratch.mit.edu/help/">Help Page</a></li>
-                <li><a href = "http://scratch.mit.edu/help/faq/">FAQ</a></li>
+                <li><a href = "https://scratch.mit.edu/info/faq/">FAQ</a></li>
                 <li><a href = "http://scratch.mit.edu/scratch2download/">Offline Editor</a></li>
                 <li><a href = "http://scratch.mit.edu/contact-us/">Contact Us</a></li>
                 <li><a href ="https://secure.donationpay.org/scratchfoundation/">Donate</a></li> 
@@ -223,10 +222,10 @@ foreach ( $footerlinks as $aLink ) {
             <li>
               <h4>Scratch Family</h4>
               <ul>
-              	<li><a href="http://scratched.gse.harvard.edu/">ScratchEd</a>
-              	<li><a href="http://scratchjr.org">ScratchJr</a>
+              	<li><a href="http://scratched.gse.harvard.edu/">Cooking Teachers</a>
+              	<li><a href="http://scratchjr.org">Junior Cooks</a>
               	<li><a href="http://day.scratch.mit.edu">Scratch Day</a>
-         		<li><a href="http://scratch.mit.edu/conference/">Scratch Conference</a>
+         		<li><a href="http://scratch.mit.edu/conference/">Food Conference</a>
                 <li><a href="http://codetolearn.org">Scratch Foundation</a>
                 </li>
               </ul>
