@@ -28,12 +28,12 @@ a.scratch{
 	display: block;
 	width: 80px;
 	height: 35px;
-	background: url("Edible Wiki Text Transparent.png") left center no-repeat;
+	background: url("New Transparent Text.png") left center no-repeat;
 	text-indent: -99999em;
 	padding: 0 2px;
 }
 a.scratch:hover{
-	background: url("Edible Wiki Text Transparent.png") left center no-repeat;
+	background: url("New Transparent Text.png") left center no-repeat;
 }
 
 header ul,
@@ -112,7 +112,7 @@ header li a:hover, #userfcttoggle.open {
 }
 
 .wikilogo{
-	background-image: url("Edible Wiki Transparent.png") ;
+	background-image: url("New Transparent Logo.png") ;
 	background-repeat: no-repeat;
 	height: 140px;
 	display: block;
